@@ -1,0 +1,75 @@
+.statistics{
+	height: 43.4em;
+	background-color: #17c2a4;
+	color: white;
+}
+
+.statistics__subtitle{
+    padding-top: 107.3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 29px;
+    letter-spacing: 0.2em;
+    font-weight: 900;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 33.8px;
+    padding-left: 14px;
+}
+
+
+.subtitle__text{
+    padding-top: 34.6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 28.6px;
+    font-size: 17.4px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.statistics__advantages{
+    display: flex;
+    width: 71.4%;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding-top: 3.7em;
+}
+
+.statistics__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    width: 20.5%;
+}
+
+.header__text{
+    padding-top: 49px;
+    text-transform: uppercase;
+    font-size: 19.6px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 2.4px;
+}
+
+.statistics__items > img{
+
+}
+
+.second__text{
+    padding-top: 18.5px;
+    line-height: 22.6px;
+    font-size: 15.1px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.statistics__items:nth-child(odd){
+    padding-top: 0.6em;
+}
+
