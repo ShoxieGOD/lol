@@ -6,67 +6,57 @@
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 </head>
 <body>
-
-	
-
-
 	<section class="greating">
-		
-	<header class="header">
-	<div class="header__overlay">
-		<img src="images/logo.png" class="header__logo"> 
-		<nav class="header__navigation">
-			<a class="active" href="">HOME</a>
-			<a class="navigation__link" href="">ABOUT</a>
-			<a class="navigation__link" href="">WORK</a>
-			<a class="navigation__link" href="">BLOG</a>
-			<a class="navigation__link" href="">CONTACT</a>
-		</nav>
-	</div>
-</header>
-
-	<div class="greating__box">
-		<h2 class="box__text">
-			Hi there! We are the new kids on the block <br> and we bulid awesome websites and mobile apps.
-		</h2>
-
-		<button class="box__button">work with us!</button>
-	</div>
-
-
+		<header class="header">
+			<div class="header__overlay">
+				<img src="images/logo.png" class="header__logo"> 
+				<nav class="header__navigation">
+					<a class="navigation__link active" href="">HOME</a>
+					<a class="navigation__link" href="">ABOUT</a>
+					<a class="navigation__link" href="">WORK</a>
+					<a class="navigation__link" href="">BLOG</a>
+					<a class="navigation__link" href="">CONTACT</a>
+				</nav>
+			</div>
+		</header>
+		<div class="greating__box">
+			<h2 class="box__text">Hi there! We are the new kids on the block <br> and we bulid awesome websites and mobile apps.</h2>
+			<button class="box__button">work with us!</button>
+		</div>
 	</section>
 
 	<section class="statistics">
+		<!-- Это один блок должен быть. Блоки связаны по смыслу. И дай им логичные названия -->
 		<div class="statistics__subtitle">services we provide</div>
 		<div class="subtitle__text">We are working with both individuals and businesses from all over the globe <br> to create awesome websites and applications</div>
+			
+		<!-- По БЭМу известно, что блок и каждый элемент должны быть независимыми (если это не служебные блоки/элементы). 	
+		Если это не блок, содержащий множество элементов, а единственный элемент, то логичное название ему нужно давать не во множественном числе -->
+		<div class="statistics__advantages">
+			<div class="statistics__item">
+				<img class="item__icon" src="images/flag.png">
+				<h2 class="header__text">brainding</h2>
+				<p class="second__text">Lorem ipsum dolor sit amet, consecleluer adipiscing elit, sed diam nonummy nibh.</p>
+			</div>
 
-	<div class="statistics__advantages">
-		<div class="statistics__items">
-			<img class="items__icon" src="images/flag.png">
-			<h2 class="header__text">brainding</h2>
-			<p class="second__text">Lorem ipsum dolor sit amet, consecleluer adipiscing elit, sed diam nonummy nibh.</p>
+			<div class="statistics__item">
+				<img class="item__icon" src="images/crayon.png">
+				<h2 class="header__text">design</h2>
+				<p class="second__text">Sed ut perspiciatis unde ommis iste natus error sil voluptatem.</p>
+			</div>
+
+			<div class="statistics__item">
+				<img class="item__icon" src="images/gears.png">
+				<h2 class="header__text">devolopment</h2>
+				<p class="second__text">At vero eos et accusamus et iosto odio dignissimos qui blanditiis praesentium.</p>
+			</div>
+
+			<div class="statistics__item">
+				<img class="item__icon" src="images/rocket.png">
+				<h2 class="header__text">rocket science</h2>
+				<p class="second__text">Et harum quidem rerum est et expedila distinclio. Nam libero tempore.</p>
+			</div>
 		</div>
-
-		<div class="statistics__items">
-			<img class="items__icon" src="images/crayon.png">
-			<h2 class="header__text">design</h2>
-			<p class="second__text">Sed ut perspiciatis unde ommis iste natus error sil voluptatem.</p>
-		</div>
-
-		<div class="statistics__items">
-			<img class="items__icon" src="images/gears.png">
-			<h2 class="header__text">devolopment</h2>
-			<p class="second__text">At vero eos et accusamus et iosto odio dignissimos qui blanditiis praesentium.</p>
-		</div>
-
-		<div class="statistics__items">
-			<img class="items__icon" src="images/rocket.png">
-			<h2 class="header__text">rocket science</h2>
-			<p class="second__text">Et harum quidem rerum est et expedila distinclio. Nam libero tempore.</p>
-		</div>
-
-	</div>
-
 	</section>
 
 </body>
